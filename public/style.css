@@ -13,4 +13,7 @@ body{
     color: white;
     overflow: hidden;
     overflow-y: scroll;
+    margin: 0;
+    padding: 0;
+   
 }

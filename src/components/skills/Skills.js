@@ -18,7 +18,7 @@ const Skills = () => {
       </span>
       <div className="skillbars">
         <div className="skillbar">
-            <img src={UIDesign} alt="UIDesign" className="skillBarImg" />
+            <img src={webDesign} alt="UIDesign" className="skillBarImg" />
             <div className="skillBarText">
                 <h2>React.js</h2>
                 <p> Expert in developing scalable, dynamic single-page applications (SPAs) using React.js. Proficient in state management libraries like Redux and RTK Query for optimized workflows.</p>
@@ -26,7 +26,7 @@ const Skills = () => {
         </div>
 
         <div className="skillbar">
-            <img src={webDesign} alt="webDesign" className="skillBarImg" />
+            <img src={UIDesign} alt="webDesign" className="skillBarImg" />
             <div className="skillBarText">
                 <h2>Next.js</h2>
                 <p>Skilled in building server-rendered React applications with improved SEO and performance, leveraging static site generation (SSG) and server-side rendering (SSR).</p>

@@ -1,6 +1,7 @@
 .navbar{
     height: 5rem;
     background: rgb(30, 30, 30);
+    /* background: red; */
     height: 5rem;
     width: 100vw;
     max-width:75rem ;
@@ -13,6 +14,7 @@
     top: 0;
     z-index: 3;
 }
+
 
 .logo{
     object-fit: cover;
@@ -47,4 +49,9 @@ border-bottom: 3px solid yellow;
     width: 1rem;
     margin: 1rem;
 
+}
+.active{
+    color: yellow;
+    border-bottom: 3px solid yellow;
+    padding-bottom: 0.5rem;
 }

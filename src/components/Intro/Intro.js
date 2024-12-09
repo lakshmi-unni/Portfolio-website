@@ -29,7 +29,7 @@ const Intro = () => {
         </Link>
       </div>
       {/* <img src={bg} alt="profile" className="bg" /> */}
-      <img src={bg} alt="profile" className="bg" />
+      <img src={bg1} alt="profile" className="bg" />
     </section>
   );
 };
