@@ -6,27 +6,36 @@ import { Link } from "react-scroll";
 import btnImg from "../../assets/hireme.png";
 
 const Intro = () => {
+  const handleDownloadResume = () => {
+    const link = document.createElement('a');
+    link.href = '/lakshmi-ReactJS-resume.pdf'; // Replace with your resume path
+    link.download = 'lakshmi-ReactJS-resume.pdf'; // Optional: specify the file name
+    link.click();
+};
   return (
     <section id="intro">
       <div className="introContent">
         <span className="hello">Hello,</span>
         <span className="introText">
-          I'm<span className="introName"> Lakshmi</span>
+          I'm<span className="introName"> Lakshmi Unni</span>
           <br />
-          Website Designer
+         
         </span>
+        <span className="designation"> Front-End Developer</span>
         <p className="introPara">
             
           I am a skilled web designer with experience in creating <br/>visually
           appealing and user friendly websites
         </p>
-        <Link>
-          <button className="btn">
+        {/* <Link > */}
+         <div>
+         <button className="btn" onClick={handleDownloadResume}>
             <img className="btnImg" src={btnImg} alt="Hire Me"/>
               Hire Me
             
           </button>
-        </Link>
+         </div>
+        {/* </Link> */}
       </div>
       {/* <img src={bg} alt="profile" className="bg" /> */}
       <img src={bg1} alt="profile" className="bg" />

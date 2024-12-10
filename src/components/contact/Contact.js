@@ -8,6 +8,10 @@ import Facebookicon from "../../assets/facebook-icon.png";
 import Twittericon from "../../assets/twitter.png";
 import youtubeIcon from "../../assets/youtube.png";
 import InstagramIcon from "../../assets/instagram.png";
+import LinkedIn from '../../assets/LinkedIn.png'
+import github from '../../assets/github.png'
+import wthsapp from '../../assets/wthsapp.webp'
+import gmail from '../../assets/gmail.png'
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
@@ -45,7 +49,7 @@ const Contact = () => {
         </div>
       </div>
       <div id="contact">
-        <h1 className="contactpageTitle">Contact Me</h1>
+        <h1 className="contactPageTitle">Contact Me</h1>
         <span className="contactDesc">
           Please fill out the form below to discuss any work opportunities
         </span>
@@ -72,10 +76,10 @@ const Contact = () => {
             Submit
           </button>
           <div className="links">
-            <img src={Facebookicon} alt="" className="link" />
-            <img src={Twittericon} alt="" className="link" />
-            <img src={youtubeIcon} alt="" className="link" />
-            <img src={InstagramIcon} alt="" className="link" />
+            <a href="https://www.linkedin.com/in/lakshmi-unni/"><img src={LinkedIn} alt="" className="link" /></a>
+           <a href="https://wa.me/8593055159"><img src={wthsapp} alt="" className="link" /></a> 
+           <a href="https://github.com/lakshmi-unni"> <img src={github} alt="" className="link" /></a>
+           <a href="mailto:lakshmiunniofficial@gmail.com"> <img src={gmail} alt="" className="link" /></a>
           </div>
         </form>
       </div>
