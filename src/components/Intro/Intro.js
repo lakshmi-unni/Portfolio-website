@@ -8,8 +8,8 @@ import btnImg from "../../assets/hireme.png";
 const Intro = () => {
   const handleDownloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/lakshmi-ReactJS-resume.pdf'; // Replace with your resume path
-    link.download = 'lakshmi-ReactJS-resume.pdf'; // Optional: specify the file name
+    link.href = '/Lakshmi_Unni_CV.pdf'; // Replace with your resume path
+    link.download = 'Lakshmi_Unni_CV.pdf'; // Optional: specify the file name
     link.click();
 };
   return (
